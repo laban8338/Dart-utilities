@@ -1,0 +1,5 @@
+void main() {
+  List<int> numbers = [12, 5, 28, 9, 7];
+  int largest = numbers.reduce((value, element) => value > element ? value : element);
+  print('The largest number is $largest');
+}
